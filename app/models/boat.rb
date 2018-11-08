@@ -4,6 +4,5 @@ class Boat < ActiveRecord::Base
   has_many    :classifications, through: :boat_classifications
 
   def first_five
-    Boat.first
   end
 end
